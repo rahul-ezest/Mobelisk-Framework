@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
           #7.
           s.platform            = :ios, "10.0"
           #8.
-          s.source              = { :git => "https://github.com/rahul-ezest/Mobelisk-Framework.git",:branch => "development" }
+          s.source              = { :git => "https://github.com/rahul-ezest/Mobelisk-Framework" }
           #9.
           s.source_files     = "Mobelisk", "Mobelisk/**/*.{h,m,swift}"
     end
