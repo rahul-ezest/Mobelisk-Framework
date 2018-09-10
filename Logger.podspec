@@ -16,5 +16,5 @@ Pod::Spec.new do |s|
           #8.
           s.source              = { :git => "https://github.com/rahul-ezest/Mobelisk-Framework", :tag => "1.0.0" }
           #9.
-          s.source_files     = "Mobelisk", "Mobelisk/**/*.{h,m,swift}"
+          #s.source_files     = "Mobelisk", "Mobelisk/**/*.{h,m,swift}"
     end
