@@ -17,4 +17,8 @@ Pod::Spec.new do |s|
           s.source              = { :https => "https://github.com/rahul-ezest/Mobelisk-Framework/blob/master/Mobelisk.zip" }
           #9.
           #s.source_files     = "Mobelisk", "Mobelisk/**/*.{h,m,swift}"
+	   #s.frameworks = 'Mobelisk'
+	   #s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '/Applications/Xcode.app/Contents/Developer/Library/Frameworks' }
+	   s.vendored_frameworks = 'Mobelisk.framework'
+
     end
